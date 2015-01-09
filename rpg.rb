@@ -19,7 +19,7 @@ answer = gets.chomp.upcase
 def flight(health)
   puts "20"
   health-=2
-  puts "You ran away. Your health count has dropped from 10 to #{hero_health}. You are a horrendous coward and no true beastmaster. We spit on your name and curse your descendents."
+  puts "You ran away. Your health count has dropped from 10 to #{health}. You are a horrendous coward and no true beastmaster. We spit on your name and curse your descendents."
   if hero_health == 0
     hero_alive = false
     puts "The villagers have murdered you for your cowardice. Tales of your shame reach your home and loved ones. You are unmourned."
