@@ -31,7 +31,7 @@ elsif answer == "Y"
     puts "baddie missed you!"
     #If the attack on the hero lands, the hero loses 1-3 health points
   elsif damage_chance <= 40
-    hero_health =- damage_hero
+    hero_health -= damage_hero
     puts "Oh no #{name}, baddie hit you and your health is now #{hero_health}!"
   end
 
